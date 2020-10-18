@@ -263,6 +263,12 @@ body {
   cursor: pointer;
 }
 
+/* Убираем стиль ссылок */
+
+.link-style {
+  text-decoration: none;
+}
+
 /* Заги карточек */
 
 .point-title {
@@ -273,16 +279,16 @@ body {
   color: var(--black);
 }
 
-/* Убираем стиль ссылок */
-
-.link-style {
-  text-decoration: none;
-}
-
 /* Подпись раздела в карточке */
 
 .discription-text.point {
   line-height: 1.875;
   text-align: left;
   color: var(--text-cl);
+}
+
+/* Фон маин-контента */
+
+.portfolio-bg {
+  background-color: var(--white);
 }
