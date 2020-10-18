@@ -53,7 +53,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--text-cl);
 }
@@ -73,12 +73,19 @@ body {
   color: var(--accent-cl);
 }
 
+/* Белый лого на темном фоне */
+
+.logo-white {
+  color: var(--white);
+}
+
 /* убрали маркеры */
+
 .list {
   list-style: none;
 }
 
-/* ссылки в навигации */
+/* Cсылки в навигации */
 
 .link {
   font-weight: 500;
@@ -89,12 +96,18 @@ body {
   text-transform: capitalize;
 }
 
+/* Активная страница */
+
+.current {
+  color: var(--accent-cl);
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-cl);
 }
 
-/* ссылки адрес в хедере */
+/* Cсылки адрес в хедере */
 
 .link-top-address {
   font-weight: 500;
@@ -114,4 +127,162 @@ body {
 
 .header-bg {
   background-color: var(--white);
+}
+
+/* Герой */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+/* Кнопка героя */
+
+.hero-link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--accent-cl);
+  text-decoration: none;
+}
+
+/* Фон героя */
+
+.hero-bg {
+  background-color: var(--dark-bg);
+}
+
+/* Заги секций */
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  color: var(--black);
+}
+
+/* Заги блока преимуществ */
+
+.feature-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+/* Фон о компании */
+
+.feature-bg {
+  background-color: var(--white-bg);
+}
+
+/* Команда*/
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187px;
+  text-align: center;
+  color: var(--black);
+}
+
+.discription-text {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+}
+
+/* Фон команды */
+.team-bg {
+  background-color: var(--grey-bg);
+}
+
+/* Подвал */
+
+.link-footer-address {
+  color: var(--white);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.link-footer-address:hover,
+.link-footer-address:focus {
+  color: var(--accent-cl);
+}
+
+.link-footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.link-footer-contacts:hover,
+.link-footer-contacts:focus {
+  color: var(--accent-cl);
+}
+
+/* Фон подвала */
+.footer-bg {
+  background-color: var(--dark-bg);
+}
+
+/* СТИЛИ ДЛЯ PORTFOLIO.HTML*/
+
+/* Кнопки */
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--black);
+  background-color: var(--grey-bg);
+  border-radius: 4px;
+  border-color: var(--grey-bg);
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--white);
+  background-color: var(--accent-cl);
+  border-color: var(--accent-cl);
+  cursor: pointer;
+}
+
+/* Заги карточек */
+
+.point-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black);
+}
+
+/* Убираем стиль ссылок */
+
+.link-style {
+  text-decoration: none;
+}
+
+/* Подпись раздела в карточке */
+
+.discription-text.point {
+  line-height: 1.875;
+  text-align: left;
+  color: var(--text-cl);
 }
