@@ -194,7 +194,7 @@ body {
 .team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.187px;
+  line-height: 1.187;
   text-align: center;
   color: var(--black);
 }
@@ -244,6 +244,7 @@ body {
 /* Кнопки */
 
 .btn {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
